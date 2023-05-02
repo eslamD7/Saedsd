@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.Upbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.HomePageLinkH4 {
+  margin-top: 25px;
+  font-weight: 800;
+  font-size: 22px;
+}
+.contactLink {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.ToggleButtonDiv {
+  display: flex;
+  flex: 1;
+}

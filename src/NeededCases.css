@@ -1,0 +1,76 @@
+.Cases {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.CasesColumn {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+}
+
+.Filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.GivingCases {
+  border: 1px solid #494d4f;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 5px;
+}
+
+.GivingCasesDetails {
+  flex: 1;
+  display: flex;
+  max-width: 58%;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 20px;
+  margin-left: auto !important;
+  margin-top: 10px;
+}
+
+.GivingCasesImg {
+  height: 170px;
+  width: 200px;
+}
+
+.GivingCasesBadge {
+  position: absolute;
+  padding: 5px 15px !important;
+  font-size: 18px !important;
+  left: 20px;
+  top: 20px;
+}
+
+.GivingCasesDetailsBadges {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.GivingCasesDetailsH1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.GivingCasesDetailsBadge {
+  padding: 5px 15px;
+  border: 1px solid #434343;
+}
+
+.Pagination {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Link {
+  text-decoration: none !important;
+}
